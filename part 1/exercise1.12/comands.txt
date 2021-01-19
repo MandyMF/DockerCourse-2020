@@ -1,0 +1,14 @@
+#Exercise 1.12
+
+# build frontend
+docker build -t exercise1-12-front -f Dockerfile_front .
+
+# run frontend
+docker container run -d -p 5000:5000 --name exercise1-12-front exercise1-12-front
+
+
+#build backend
+docker build -t exercise1-12-back -f Dockerfile_back .
+
+# run backend
+docker container run -d -p 8000:8000 -v "E:\study\Docker Course\part 1\exercise1.12\logs.txt:/exercise/app/logs.txt" --name exercise1-12-back exercise1-12-back

@@ -1,0 +1,4 @@
+#Exercise 1.4
+
+Secret message is:
+"Docker is easy"

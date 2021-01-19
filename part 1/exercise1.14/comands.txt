@@ -1,0 +1,5 @@
+#Exercise 1.14
+
+docker build -t exercise1.14 .
+
+docker container run -d -p 3000:3000 --name exercise1.14 exercise1.14

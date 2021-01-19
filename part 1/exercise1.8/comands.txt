@@ -1,0 +1,4 @@
+#Exercise 1.8
+
+docker image pull devopsdockeruh/first_volume_exercise
+docker container run -v "E:\study\Docker Course\part 1\exercise1.8\logs.txt:/usr/app/logs.txt" devopsdockeruh/first_volume_exercise

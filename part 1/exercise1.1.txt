@@ -1,0 +1,7 @@
+#Exercise 1.1
+
+docker container ls -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                          PORTS     NAMES
+67feff03b7cc   nginx     "/docker-entrypoint.…"   2 minutes ago   Exited (0) About a minute ago             jovial_jang
+bbac101f247e   nginx     "/docker-entrypoint.…"   2 minutes ago   Exited (0) About a minute ago             heuristic_mirzakhani
+d8d63bf53fe4   nginx     "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes                    80/tcp    sleepy_wing

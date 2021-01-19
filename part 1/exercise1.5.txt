@@ -1,0 +1,4 @@
+#Exercise 1.5
+comment: I had a problem with double quotes in powershell in the echo command, so I removed the quotes.
+
+docker run --rm -it --name exercise1-5 ubuntu:16.04 sh -c 'echo Input website:; read website; apt-get update; apt-get install -y curl; echo Searching; sleep 1; curl http://$website;'

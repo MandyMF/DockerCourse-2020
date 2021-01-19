@@ -1,0 +1,5 @@
+#Exercise 1.11
+
+docker build -t exercise1-11 .
+
+docker container run -d -p 8000:8000 -v "E:\study\Docker Course\part 1\exercise1.11\logs.txt:/exercise/app/logs.txt" --name exercise1-11 exercise1-11
